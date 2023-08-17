@@ -1,0 +1,35 @@
+.write{
+    text-align: center;
+}
+h2{
+    color: rgb(72, 146, 170);
+}
+#context{
+    width: 80%;
+    height: 50vh;
+    margin-top: 20px;
+    font-size: 20px;
+    border-color: rgb(72, 146, 170);
+}
+.write label {
+    display: inline-block;
+	text-align: left;
+	width: 80%;
+    height: 5vh;
+	font-weight: bold;
+    font-size: 20px;
+    color: rgb(72, 146, 170);
+}
+.write input {
+    width: 80%;
+}
+.write button{
+    width: 40vw;
+    height: 7vh;
+    border-radius: 15px;
+    font-size: large;
+    border:none;
+    margin-top: 27px;
+    background-color: rgb(72, 146, 170);
+    color: rgb(255, 255, 255);
+} 

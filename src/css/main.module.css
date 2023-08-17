@@ -1,0 +1,248 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title span{
+    font-weight: bold;
+}
+.title{
+    font-size: 40px;
+}
+.schoolBtns{
+    display: flex;
+    width: 90vw;
+    margin: 10px 0px;
+}
+.schoolBtn{
+    width: 30vw;
+    padding: 10px 10px;
+    margin: 1vw;
+    background-color: #fafafa;
+    border: 2px solid grey;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+.schoolBtn:hover{
+    cursor: pointer;
+}
+.clickBtn{
+    width: 35vw;
+    padding: 10px 10px;
+    margin: 1vw;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    
+    text-decoration: none;
+    font-weight: 900;
+    transition: 0.25s;
+    background-color: rgb(72, 146, 170);
+    color: rgb(246, 246, 246);
+}
+.menuBtns{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.menuBtn{
+    width: 50%;
+    padding: 10px 10px;
+    margin: 1vw;
+    background-color: #fafafa;
+    border: 2px solid grey;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+.menuBtn:hover{
+    cursor: pointer;
+}
+.clickMenu{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 1vw;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    border: 2px solid  rgb(72, 146, 170);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: rgb(72, 146, 170);
+    color: rgb(246, 246, 246);
+}
+.search{
+    width: 88vw;
+    display: flex;
+    margin-top: 15px;
+}
+.search input{
+    border: 2px solid #787878;
+    padding-left: 8px;
+    border-radius: 15px;
+    width: 60vw;
+    height: 30px;
+}
+.search button{
+    width: 30vw;
+    margin-left : 6px;
+    border-radius: 15px;
+    background-color: #f9b314;
+    border: none;
+    height: 35px;
+}
+.search button:hover{
+    cursor: pointer;
+}
+.person{
+    width: 80vw;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 20px;
+}
+.person p{
+    font-size: 20px;
+}
+.board{
+    margin-top: 15px;
+    padding: 10px;
+    width: 80vw;
+    /* height: 88vh; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    overflow: auto;
+}
+.username{
+    margin-top: 0;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.content{
+    font-size: 15px;
+    margin-left: 5%;
+}
+.photoContainer{
+    position: relative;
+	width: 90%;
+	padding-top: 100%;
+    margin: 0 auto;
+}
+.photo{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.reviewBtn{
+    font-size: 18px;
+    background-color: #d5d5d5;
+    padding: 5px;
+    border-radius: 10px;
+}
+.reviewBtn span:hover{
+    cursor: pointer;
+}
+.writeicon{
+    width: 100%;
+    height: 13vh;
+    object-fit: contain;
+}
+#writebtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);  
+}
+.review{
+    display: flex;
+    width: 100%;
+
+}
+.review button{
+    width: 20%;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 15px;
+    font-weight: bold;
+    color : grey;
+}
+.review button:hover{
+    border: 2px solid  rgb(72, 146, 170);
+    color:  rgb(72, 146, 170);
+}
+.reviewInput{
+    width: 80%;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.reviewmore{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 90%;
+}
+.accordionButton {
+  display: block;
+  width: 100%;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  padding-left: 20px;
+  font-size: 17px;
+}
+.accordionItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #ededed;
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.accordionButton:focus {
+  outline: none;
+}
+.accordionContent {
+  width: 93%;
+  font-size: 17px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+.reviewUsername{
+    padding-left:10px;
+    color: #555;
+}
+.reviewContents{
+    padding-left:10px;
+    color: #333;
+}

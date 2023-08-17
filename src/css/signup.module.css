@@ -1,0 +1,39 @@
+.signup{
+    text-align: center;
+    width: 100%;
+}
+.signup input{
+    width: 40vw;
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+.signup label {
+	display: inline-block;
+	text-align: center;
+	width: 40vw;
+    height: 5vh;
+    /* margin-left: px; */
+	font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+}
+.signup textarea{
+    width: 40vw;
+    height: 7vh;
+    margin-top: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+}
+#doSignupbtn{
+    width: 40vw;
+    height: 7vh;
+    border-radius: 15px;
+    font-size: large;
+    border:none;
+    margin-top: 27px;
+    background-color: rgb(72, 146, 170);
+    color: rgb(255, 255, 255);
+}
